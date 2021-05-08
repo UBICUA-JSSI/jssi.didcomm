@@ -1,2 +1,2 @@
 # ssi
- sSSI
+ SSI
