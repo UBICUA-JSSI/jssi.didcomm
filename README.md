@@ -1,2 +1,2 @@
-# ssi
- SSI
+# jssi.didcomm
+ JSSI Didcomm
