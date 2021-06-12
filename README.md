@@ -23,8 +23,9 @@ According to the [DIDComm Messaging](https://identity.foundation/didcomm-messagi
 
 ### Privacy and Security
 A secure messaging system must implement two basic features:
-- **Authentication** to provide Session Layer Security (SLS),
-- **Encryption** to provide Messaging Layer Security (MLS).
+- **End-to-end Encryption** at the Messaging Layer,
+- **Bilateral Authentication** zt the Session Layer.
+
 
 #### Authentication
 Authentication is required to provide security of a messaging solution at the session layer. Within the SSI model, [DID Authentication](https://github.com/WebOfTrustInfo/rwot6-santabarbara/blob/master/final-documents/did-auth.md) is proposed as a primary method of identity verification.
