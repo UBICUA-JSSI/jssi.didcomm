@@ -32,9 +32,9 @@ Authentication is required to provide security of a messaging solution at the se
 
 Each agent represents a DID Subject having the corresponding DID ad DID Document. Formally, a DID Subject possesses an individual state which is characterized by a set of identity attributes accompanied by public encryption keys and public signing keys. DID Authentication as a method by which a DID Subject proves a possession and control over the entire cryptographic state of an identity.
 
-JDCM adopts DID Authentication as mandatory and reciprocal process which can be implemented in one of two modes:
-- **Unilateral mode** in which DID Authentication is built atop the Transport Layer Security (TLS) together with public authority certificates (CA). 
-- **Bilateral mode** in which both communicating DID Subjects rely on a common DID Authentication protocol.
+JDCM adopts DID Authentication as mandatory and bilateral (_aka_ reciprocal or mutual) process which can be implemented in one of two modes:
+- **Asymmetric mode** in which DID Authentication is built atop the Transport Layer Security (TLS) together with public authority certificates (CA). 
+- **Symmetric mode** in which both communicating DID Subjects rely on a common DID Authentication protocol.
 
 As shown by [Diffie et al.](https://link.springer.com/article/10.1007/BF00124891), authentication-only solutions using long-term keys cannot protect communicating parties from some attacks, such as the Man-In-The-Middle (MITM) or Man-At-The-End (MATE) types. In insecure and unsafe environments, DID Authentication combined with a Key Exchange (KE), i.e. an exchange of a shared secret, seems preferable.
 
